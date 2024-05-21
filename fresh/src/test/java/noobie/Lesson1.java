@@ -12,6 +12,10 @@ public class Lesson1 {
 		public void openBrowser() {
 			WebDriver driver = new ChromeDriver();
 			driver.get("https://mvnrepository.com/artifact/org.testng/testng/7.7.1");
+			System.out.println("hey");
+			System.out.println("I'm making");
+			System.out.println("I'm making hehe");
+			
 			driver.close();
 		}
 		
